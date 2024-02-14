@@ -5,7 +5,7 @@
 int main(int argc, char * agrv[]) {
 	srand(time(0));
 	// enter file path to dictionary txt file
-	BoggleBoard bb("C:\\Users\\PC\\source\\repos\\Data Structures\\Projects\\Project4\\BigDictionary.txt");
+	BoggleBoard bb("");
 
 	bb.printBoard(); 
 	std::cout << "Show Solutions? (Y/N)\n";
