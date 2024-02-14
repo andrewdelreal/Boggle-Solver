@@ -7,7 +7,7 @@ int main(int argc, char * agrv[]) {
 	// enter file path to dictionary txt file
 	BoggleBoard bb("C:\\Users\\PC\\source\\repos\\Data Structures\\Projects\\Project4\\BigDictionary.txt");
 
-	bb.printBoard();
+	bb.printBoard(); 
 	std::cout << "Show Solutions? (Y/N)\n";
 	std::string response = "";
 	std::cin >> response;
